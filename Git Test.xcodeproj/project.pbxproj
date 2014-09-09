@@ -21,6 +21,7 @@
 		0BE5D36119BFBF1B00894EE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE5D34319BFBF1B00894EE6 /* UIKit.framework */; };
 		0BE5D36919BFBF1B00894EE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BE5D36719BFBF1B00894EE6 /* InfoPlist.strings */; };
 		0BE5D36B19BFBF1B00894EE6 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE5D36A19BFBF1B00894EE6 /* Git_TestTests.m */; };
+		0BE5D37619BFC43C00894EE6 /* DMCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE5D37519BFC43C00894EE6 /* DMCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0BE5D36619BFBF1B00894EE6 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		0BE5D36819BFBF1B00894EE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0BE5D36A19BFBF1B00894EE6 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		0BE5D37419BFC43C00894EE6 /* DMCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMCTest.h; path = ../DMCTest.h; sourceTree = "<group>"; };
+		0BE5D37519BFC43C00894EE6 /* DMCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMCTest.m; path = ../DMCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				0BE5D35119BFBF1B00894EE6 /* Main.storyboard */,
 				0BE5D35419BFBF1B00894EE6 /* DMCViewController.h */,
 				0BE5D35519BFBF1B00894EE6 /* DMCViewController.m */,
+				0BE5D37419BFC43C00894EE6 /* DMCTest.h */,
+				0BE5D37519BFC43C00894EE6 /* DMCTest.m */,
 				0BE5D35719BFBF1B00894EE6 /* Images.xcassets */,
 				0BE5D34619BFBF1B00894EE6 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE5D37619BFC43C00894EE6 /* DMCTest.m in Sources */,
 				0BE5D35619BFBF1B00894EE6 /* DMCViewController.m in Sources */,
 				0BE5D34C19BFBF1B00894EE6 /* main.m in Sources */,
 				0BE5D35019BFBF1B00894EE6 /* DMCAppDelegate.m in Sources */,
